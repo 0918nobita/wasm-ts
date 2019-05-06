@@ -1,0 +1,18 @@
+{
+  "name": "wasm-ts",
+  "version": "0.1.0",
+  "description": "TypeScript type definitions for WebAssembly API",
+  "repository": "git@github.com:0918nobita/wasm-ts.git",
+  "author": "0918nobita <nobita.0918@gmail.com>",
+  "types": "index",
+  "license": "CC-0",
+  "private": true,
+  "devDependencies": {
+    "prettier": "^1.17.0",
+    "tslint": "^5.16.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-config-standard": "^8.0.1",
+    "tslint-plugin-prettier": "^2.0.1",
+    "typescript": "^3.4.5"
+  }
+}
