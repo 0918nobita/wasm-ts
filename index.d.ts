@@ -1,4 +1,4 @@
-export namespace WebAssembly {
+declare namespace WebAssembly {
   export class Module {
     /**
      * Returns a copy of the contents of all custom sections in the given module with the given string name.
