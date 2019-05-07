@@ -1,6 +1,6 @@
 {
   "name": "wasm-ts",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "TypeScript type definitions for WebAssembly API",
   "repository": "git@github.com:0918nobita/wasm-ts.git",
   "author": "0918nobita <nobita.0918@gmail.com>",
