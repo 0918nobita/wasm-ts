@@ -19,7 +19,7 @@ yarn add wasm-ts
 ## Example
 
 ```typescript
-import { WebAssembly } from 'wasm-ts';
+import 'wasm-ts';
 
 WebAssembly.instantiateStreaming(fetch('example.wasm')).then(obj => {
   obj.instance.exports.func();
