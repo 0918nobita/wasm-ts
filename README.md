@@ -28,6 +28,12 @@ WebAssembly.instantiateStreaming(fetch('example.wasm')).then(obj => {
 
 ## Changelog
 
+### [0.1.3] - 2019.05.07
+
+- Support webpack + ts-loader
+- Change module structure (Redefine as ambient namespace)
+  - ``import { WebAssembly } from 'wasm-ts'`` → ``import 'wasm-ts';``
+
 ### [0.1.2] - 2019.05.06
 
 - Add LICENSE
